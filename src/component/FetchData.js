@@ -18,12 +18,12 @@ fetch(url).then(response=>response.json()).then(json=>{
 const [api, setApi]=useState(data)
 
 useEffect(()=>{const filteritem=data.filter((fItem)=>{
-  return (fItem.userId=1)
+  return (fItem.id>=50)
 });
 setApi(filteritem);
-},[]);
+},[data]);
 
-
+console.log(api)
 
 console.log(data);
 
