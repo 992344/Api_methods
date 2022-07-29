@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
+import FetchData from './component/FetchData';
+import Navbar from './component/Navbar';
+import { Routes ,Route } from 'react-router-dom';
+import { BrowserRouter as Router } from "react-router-dom";
+import Getuser from './component/Getuser';
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Navbar/>
+   <Routes>
+   <Route exact path="/getdata" element={<FetchData/>}/>
+   <Route exact path="/getuser" element={<Getuser/>}/>
+ </Routes>
+   </>
   );
 }
 
