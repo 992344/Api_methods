@@ -1,0 +1,33 @@
+ .v{
+     text-align: center;
+ }
+   .button {
+     border: none;
+     color: rgb(26, 18, 32);
+     padding: 30px 50px;
+     text-align: center;
+     /* text-decoration: none; */
+     /* display: inline-block; */
+     font-size: 16px;
+     margin: 8px 15px;
+     cursor: pointer;
+   }
+   .button:hover {
+     background-color: hsl(120, 2%, 61%);
+   }
+   
+   .button1 {
+     background-color: #4caf50;
+   }
+   
+   .button2 {
+     background-color: #008cba;
+   }
+   
+   P {
+     color: rgb(54, 3, 3);
+     text-align: center;
+     font-size: 60px;
+     margin-bottom: 50px;
+   }
+   

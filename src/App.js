@@ -8,6 +8,7 @@ import Create from './component/Create';
 import Readdata from './component/Readdata';
 import Update from './component/Update';
 import Home from './component/Home';
+import HookuseState from './component/Hookconcept/HookuseState';
 function App() {
 
   return (
@@ -21,6 +22,8 @@ function App() {
    <Route exact path="/readdata" element={<Readdata/>}/>
    <Route exact path="/update" element={<Update/>}/>
    <Route exact path="/home" element={<Home/>}/>
+   <Route exact path="/usestate" element={<HookuseState/>}/>
+
  </Routes>
    </>
    </div>
