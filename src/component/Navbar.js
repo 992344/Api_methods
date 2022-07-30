@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
  <ul class="nav justify-content-center">
   <li class="nav-item">
-    <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+    <Link class="nav-link active" aria-current="page" to="/home">Home</Link>
   </li>
   <li class="nav-item">
     <Link class="nav-link active" aria-current="page" to="/getdata">Get Data</Link>
@@ -14,7 +14,10 @@ const Navbar = () => {
     <Link class="nav-link active" aria-current="page" to="/getuser">Get USer</Link>
   </li>
   <li class="nav-item">
-    <Link class="nav-link active" aria-current="page" to="/getdata">Get Data</Link>
+    <Link class="nav-link active" aria-current="page" to="/create">Create User</Link>
+  </li>
+  <li class="nav-item">
+    <Link class="nav-link active" aria-current="page" to="/readdata">Read data</Link>
   </li>
 </ul>
     </div>
