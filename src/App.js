@@ -23,7 +23,6 @@ function App() {
    <Route exact path="/update" element={<Update/>}/>
    <Route exact path="/home" element={<Home/>}/>
    <Route exact path="/usestate" element={<HookuseState/>}/>
-
  </Routes>
    </>
    </div>
